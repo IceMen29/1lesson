@@ -7,9 +7,9 @@ public class asmp_task_233 {
         Scanner sc = new Scanner(System.in);
         boolean isCrash = false;
         int n = sc.nextInt();
-        sc.nextLine();
+
         for (int i = 1; i <= n; i++) {
-            if (sc.nextInt() < 437) {
+            if (sc.nextInt() <= 437) {
                 System.out.println("Crash " + i);
                 isCrash = true;
                 break;
