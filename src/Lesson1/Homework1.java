@@ -113,11 +113,11 @@ public class Homework1 {
             System.out.println("Самое большое 1 число");
             max = firstDigit;
         }
-        if (secondDigit > firstDigit && secondDigit > thirdDigit) {
+        else if (secondDigit > firstDigit && secondDigit > thirdDigit) {
             System.out.println("Самое большое 2 число");
             max = secondDigit;
         }
-        if (thirdDigit > firstDigit && thirdDigit > secondDigit) {
+        else if (thirdDigit > firstDigit && thirdDigit > secondDigit) {
             System.out.println("Самое большое 3 число");
             max = thirdDigit;
         }
@@ -125,21 +125,21 @@ public class Homework1 {
             System.out.println("Самое маленькое 1 число");
             min = firstDigit;
         }
-        if (secondDigit < firstDigit && secondDigit < thirdDigit) {
+        else if (secondDigit < firstDigit && secondDigit < thirdDigit) {
             System.out.println("Самое маленькое 2 число");
             min = secondDigit;
         }
-        if (thirdDigit < firstDigit && thirdDigit < secondDigit) {
+        else if (thirdDigit < firstDigit && thirdDigit < secondDigit) {
             System.out.println("Самое маленькое 3 число");
             min = thirdDigit;
         }
         if (firstDigit > min && firstDigit < max) {
             System.out.println("1 число является средним");
         }
-        if (secondDigit > min && secondDigit < max) {
+        else if (secondDigit > min && secondDigit < max) {
             System.out.println("2 число является средним");
         }
-        if (thirdDigit > min && thirdDigit < max) {
+        else if (thirdDigit > min && thirdDigit < max) {
             System.out.println("3 число является средним");
         }
         System.out.println();

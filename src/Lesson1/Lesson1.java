@@ -64,7 +64,7 @@ public class Lesson1 {
         } else if (age >= 65 && age < 100) {
             System.out.println("Продаем и также продаем лекарства");
         } else {
-            System.out.println("Куда ему продавать123");
+            System.out.println("Куда ему продавать");
         }
     }
 }
