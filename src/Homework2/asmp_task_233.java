@@ -17,6 +17,7 @@ public class asmp_task_233 {
         }
         if (!isCrash) {
             System.out.println("No crash");
+
         }
     }
 }
